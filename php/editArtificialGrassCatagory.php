@@ -17,7 +17,7 @@
       <a class='navbar-brand' href='#'>
 	  <div class='logo-icon'> </div>
        <!-- <i class='icon-beer'></i>-->
-        <img src="assets/images/vector-slide-grass.png" align="middle" height="42" width="42" > SmartGrass
+        <img src="assets/images/vector-slide-grass.png" align="middle" height="42" width="42" >SmartGrass
       </a>
       <ul class='nav navbar-nav pull-right'>
         <li class='dropdown'>
@@ -72,11 +72,11 @@
       <section id='sidebar'>
         <i class='icon-align-justify icon-large' id='toggle'></i>
         <ul id='dock'>
-          <li class='active launcher'>
+          <li class='launcher'>
             <i class='icon-home'></i>
             <a href="home.php">Home</a>
           </li>
-		   <li class='launcher dropdown hover'>
+		   <li class='active launcher dropdown hover'>
             <i class='icon-flag'></i>
             <a href='#'>Management</a>
             <ul class='dropdown-menu'>
@@ -143,7 +143,7 @@
       <!-- Tools -->
       <section id='tools'>
         <ul class='breadcrumb' id='breadcrumb'>
-          <li class='title'>Home</li>
+          <li class='title'>Management</li>
           <!--<li><a href="#">Lorem</a></li>
           <li class='active'><a href="#">ipsum</a></li>-->
         </ul>
@@ -174,49 +174,37 @@
       <!-- Content -->
       <div id='content'>
         <div class='panel panel-default'>
+          <div class='panel panel-default'>
           <div class='panel-heading'>
-            <img src="assets/images/vector-slide-grass.png" align="middle" height="30" width="30" >
-            Smart Grass!
-            <div class='panel-tools'>
-              <div class='btn-group'>
-                <a class='btn' href='#'>
-                  <i class='icon-refresh'></i>
-                  Refresh statics
-                </a>
-                <a class='btn' data-toggle='toolbar-tooltip' href='#' title='Toggle'>
-                  <i class='icon-chevron-down'></i>
-                </a>
-              </div>
-            </div>
+            <i class='icon-edit icon-large'></i>
+                        ข้อมูลประเภทหญ้าเทียม 
           </div>
           <div class='panel-body'>
-            <div class='page-header'>
-              <h4>System usage</h4>
-            </div>
-            <div class='progress'>
-              <div class='progress-bar progress-bar-success' style='width: 35%'></div>
-              <div class='progress-bar progress-bar-warning' style='width: 20%'></div>
-              <div class='progress-bar progress-bar-danger' style='width: 10%'></div>
-            </div>
-            <div class='page-header'>
-              <h4>User statics</h4>
-            </div>
-            <div class='row text-center'>
-              <div class='col-md-3'>
-                <input class='knob second' data-bgcolor='#d4ecfd' data-fgcolor='#30a1ec' data-height='140' data-inputcolor='#333' data-thickness='.3' data-width='140' type='text' value='50'>
+            <form class='form-horizontal'>
+              <fieldset>
+                <legend>กรุณากรอกข้อมูล</legend>
+                 <div class='form-group'>
+                  <label class='col-lg-2 control-label'>รหัสประเภทหญ้าเทียม</label>
+				  <div class='col-lg-10'>
+                  <input class='form-control' disabled placeholder='1'>
+				  </div>
+                </div>            
+                <div class='form-group has-warning'>
+                  <label class='col-lg-2 control-label'>ชื่อประเภทหญ้าเทียม</label>
+                  <div class='col-lg-10'>
+                    <input class='form-control' placeholder='ชื่อประเภทหญ้าเทียม' type='text'>
+                  </div>
+                </div>
+                
+              </fieldset>
+              <div class='form-actions'>
+                <button class='btn btn-default' type='submit'>Save</button>
+                <a class='btn' href='#'>Cancel</a>
               </div>
-              <div class='col-md-3'>
-                <input class='knob second' data-bgcolor='#c4e9aa' data-fgcolor='#8ac368' data-height='140' data-inputcolor='#333' data-thickness='.3' data-width='140' type='text' value='75'>
-              </div>
-              <div class='col-md-3'>
-                <input class='knob second' data-bgcolor='#cef3f5' data-fgcolor='#5ba0a3' data-height='140' data-inputcolor='#333' data-thickness='.3' data-width='140' type='text' value='35'>
-              </div>
-              <div class='col-md-3'>
-                <input class='knob second' data-bgcolor='#f8d2e0' data-fgcolor='#b85e80' data-height='140' data-inputcolor='#333' data-thickness='.3' data-width='140' type='text' value='85'>
-              </div>
-            </div>
+            </form>
           </div>
         </div>
+      
       </div>
     </div>
     <!-- Footer -->
