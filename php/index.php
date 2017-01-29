@@ -45,7 +45,7 @@
                     Remember me on this computer
                   </label>
                 </div>
-                <a class="btn btn-default" href="dashboard.html">Sign in</a>
+                <a class="btn btn-default" href="home.php">Sign in</a>
                 <br>
                 <a href="forgot_password.html">Forgot password?</a>
               </div>
