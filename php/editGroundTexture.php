@@ -180,23 +180,23 @@
           <div class='panel panel-default'>
           <div class='panel-heading'>
             <i class='icon-edit icon-large'></i>
-                        ข้อมูลประเภทหญ้าเทียม 
+                        ข้อมูลรุ่นหญ้าเทียม 
           </div>
           <div class='panel-body'>
             <form class='form-horizontal'>
               <fieldset>
                 <legend>กรุณากรอกข้อมูล</legend>
-                 <div class='form-group'>
-                  <label class='col-lg-2 control-label'>รหัสประเภทหญ้าเทียม</label>
-				  <div class='col-lg-10'>
-                  <input class='form-control' disabled placeholder='1'>
-				  </div>
-                </div>            
-                <div class='form-group has-warning'>
-                  <label class='col-lg-2 control-label'>ชื่อประเภทหญ้าเทียม</label>
+                   <div class='form-group has-warning'>
+                  <label class='col-lg-2 control-label'>รหัสพื้นผิว</label>
                   <div class='col-lg-10'>
-                    <input class='form-control' placeholder='ชื่อประเภทหญ้าเทียม' type='text'>
+                    <input class='form-control'  disabled placeholder='รหัสพื้นผิว' type='text'>
                   </div>
+				  <label class='col-lg-2 control-label'>ชื่อพื้นผิว</label>
+                  <div class='col-lg-10'>
+                    <input class='form-control' placeholder='ชื่อพื้นผิว' type='text'>
+                  </div>
+				  
+				 
                 </div>
                 
               </fieldset>

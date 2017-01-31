@@ -180,23 +180,37 @@
           <div class='panel panel-default'>
           <div class='panel-heading'>
             <i class='icon-edit icon-large'></i>
-                        ข้อมูลประเภทหญ้าเทียม 
+                        ข้อมูลผู้ใช้ 
           </div>
           <div class='panel-body'>
             <form class='form-horizontal'>
               <fieldset>
                 <legend>กรุณากรอกข้อมูล</legend>
-                 <div class='form-group'>
-                  <label class='col-lg-2 control-label'>รหัสประเภทหญ้าเทียม</label>
-				  <div class='col-lg-10'>
-                  <input class='form-control' disabled placeholder='1'>
-				  </div>
-                </div>            
-                <div class='form-group has-warning'>
-                  <label class='col-lg-2 control-label'>ชื่อประเภทหญ้าเทียม</label>
+                   <div class='form-group has-warning'>
+                  <label class='col-lg-2 control-label'>รหัสผู้ใช้</label>
                   <div class='col-lg-10'>
-                    <input class='form-control' placeholder='ชื่อประเภทหญ้าเทียม' type='text'>
+                    <input class='form-control' placeholder='รหัสผู้ใช้' type='text'>
                   </div>
+				  <label class='col-lg-2 control-label'>ชื่อผู้ใช้</label>
+                  <div class='col-lg-10'>
+                    <input class='form-control' placeholder='ชื่อผู้ใช้' type='text'>
+                  </div>
+				  <label class='col-lg-2 control-label'>นามสกุลผู้ใช้</label>
+                  <div class='col-lg-10'>
+                    <input class='form-control' placeholder='นามสกุลผู้ใช้' type='text'>
+                  </div>
+				  <label class='col-lg-2 control-label'>รหัสผ่าน</label>
+                  <div class='col-lg-10'>
+                    <input class='form-control' placeholder='รหัสผ่าน' type='password'>
+                  </div>
+				   <label class='col-lg-2 control-label'>Role</label>
+				  <div class='col-lg-10'>
+                  <select class='form-control'  >
+                    <option>Admin</option>
+                    <option>Sale</option>
+                    </select>
+					</div>
+				 
                 </div>
                 
               </fieldset>

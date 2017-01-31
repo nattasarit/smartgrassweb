@@ -180,28 +180,64 @@
           <div class='panel panel-default'>
           <div class='panel-heading'>
             <i class='icon-edit icon-large'></i>
-                        ข้อมูลประเภทหญ้าเทียม 
+                        ข้อมูลผู้ใช้
           </div>
           <div class='panel-body'>
             <form class='form-horizontal'>
               <fieldset>
                 <legend>กรุณากรอกข้อมูล</legend>
                  <div class='form-group'>
-                  <label class='col-lg-2 control-label'>รหัสประเภทหญ้าเทียม</label>
-				  <div class='col-lg-10'>
-                  <input class='form-control' disabled placeholder='1'>
-				  </div>
-                </div>            
-                <div class='form-group has-warning'>
-                  <label class='col-lg-2 control-label'>ชื่อประเภทหญ้าเทียม</label>
+                  <label class='col-lg-2 control-label'>รหัสรุ่นหญ้าเทียม</label>
                   <div class='col-lg-10'>
-                    <input class='form-control' placeholder='ชื่อประเภทหญ้าเทียม' type='text'>
+                    <input class='form-control' disabled  placeholder='รหัสรุ่นหญ้าเทียม' type='text'>
                   </div>
+				  <label class='col-lg-2 control-label'>ประเภทรุ่นหญ้าเทียม</label>
+                  <div class='col-lg-10'>
+                   <input class='form-control' disabled  placeholder='ประเภทรุ่นหญ้าเทียม' type='text'>
+					</div>
+				  <label class='col-lg-2 control-label'>ชื่อรุ่นหญ้าเทียม</label>
+                  <div class='col-lg-10'>
+                    <input class='form-control' disabled placeholder='ชื่อรุ่นหญ้าเทียม' type='text'>
+                  </div>
+				  <label class='col-lg-2 control-label'>หน้าหว้างของรุ่นหญ้า</label>
+                  <div class='col-lg-10'>
+                    <input class='form-control' disabled placeholder='หน้าหว้างของรุ่นหญ้า' type='text'>
+                  </div>
+				  <label class='col-lg-2 control-label'>ความยาวของม้วนหญ้า</label>
+                  <div class='col-lg-10'>
+                    <input class='form-control' disabled placeholder='ความยาวของม้วนหญ้า' type='text'>
+                  </div>
+				  <label class='col-lg-2 control-label'>PileHeight</label>
+                  <div class='col-lg-10'>
+                    <input class='form-control' disabled placeholder='PileHeight' type='text'>
+                  </div>
+				  <label class='col-lg-2 control-label'>SitchRate</label>
+                  <div class='col-lg-10'>
+                    <input class='form-control' disabled placeholder='SitchRate' type='text'>
+                  </div>
+				   <label class='col-lg-2 control-label'>Gauge</label>
+                  <div class='col-lg-10'>
+                    <input class='form-control' disabled placeholder='Gauge' type='text'>
+                  </div>
+				  <label class='col-lg-2 control-label'>Color</label>
+                  <div class='col-lg-10'>
+                    <input class='form-control' disabled  placeholder='Color' type='text'>
+                  </div>
+				  <label class='col-lg-2 control-label'>PileDenie</label>
+                  <div class='col-lg-10'>
+                    <input class='form-control' disabled placeholder='PileDenie' type='text'>
+                  </div>
+				  <label class='col-lg-2 control-label'>Backing</label>
+                  <div class='col-lg-10'>
+                    <input class='form-control' disabled placeholder='Backing' type='text'>
+                  </div>
+				               
+				  			 
                 </div>
-                
+				
               </fieldset>
               <div class='form-actions'>
-                <button class='btn btn-default' type='submit'>Save</button>
+                <button class='btn btn-default' type='submit'>Delete</button>
                 <a class='btn' href='#'>Cancel</a>
               </div>
             </form>

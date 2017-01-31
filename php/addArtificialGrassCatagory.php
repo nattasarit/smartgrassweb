@@ -3,7 +3,7 @@
   <head>
     <meta charset='utf-8'>
     <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
-    <title>Dashboard</title>
+    <title>Smart Grass</title>
     <meta content='lab2023' name='author'>
     <meta content='' name='description'>
     <meta content='' name='keywords'>
@@ -20,7 +20,7 @@
         <img src="assets/images/vector-slide-grass.png" align="middle" height="42" width="42" >SmartGrass
       </a>
       <ul class='nav navbar-nav pull-right'>
-        <li class='dropdown'>
+         <!-- <li class='dropdown'>
           <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
             <i class='icon-envelope'></i>
             Messages
@@ -41,13 +41,13 @@
               <a href='#'>Trash</a>
             </li>
           </ul>
-        </li>
-        <li>
+        </li> -->
+        <!--<li>
           <a href='#'>
             <i class='icon-cog'></i>
             Settings
           </a>
-        </li>
+        </li>-->
         <li class='dropdown user'>
           <a class='dropdown-toggle' data-toggle='dropdown' href='#'>
             <i class='icon-user'></i>
@@ -82,6 +82,9 @@
             <ul class='dropdown-menu'>
               <li class='dropdown-header'>Management Table</li>
               <li>
+                <a href='mgtUser.php'>จัดการข้อมูลผู้ใช้ </a>
+              </li
+			  <li>
                 <a href='mgtArtificialGrassCatagory.php'>ตารางประเภทหญ้าเทียม </a>
               </li>
               <li>
@@ -121,7 +124,7 @@
           </li>
           <li class='launcher dropdown hover'>
             <i class='icon-file-text-alt'></i>
-            <a href='#'>Management</a>
+            <a href='#'>Order</a>
             <ul class='dropdown-menu'>
               <li class='dropdown-header'>Order</li>
               <li>
@@ -144,31 +147,31 @@
       <section id='tools'>
         <ul class='breadcrumb' id='breadcrumb'>
           <li class='title'>Management</li>
-          <!--<li><a href="#">Lorem</a></li>
+                  <!--<li><a href="#">Lorem</a></li>
           <li class='active'><a href="#">ipsum</a></li>-->
         </ul>
         <div id='toolbar'>
           <div class='btn-group'>
-            <a class='btn' data-toggle='toolbar-tooltip' href='#' title='Building'>
+           <!-- <a class='btn' data-toggle='toolbar-tooltip' href='#' title='Building'>
               <i class='icon-building'></i>
             </a>
             <a class='btn' data-toggle='toolbar-tooltip' href='#' title='Laptop'>
               <i class='icon-laptop'></i>
-            </a>
+            </a> -->
             <a class='btn' data-toggle='toolbar-tooltip' href='#' title='Calendar'>
               <i class='icon-calendar'></i>
               <span class='badge'>3</span>
             </a>
-            <a class='btn' data-toggle='toolbar-tooltip' href='#' title='Lemon'>
+           <!-- <a class='btn' data-toggle='toolbar-tooltip' href='#' title='Lemon'>
               <i class='icon-lemon'></i>
-            </a>
+            </a>-->
           </div>
-          <div class='label label-danger'>
+          <!-- <div class='label label-danger'>
             Danger
           </div>
           <div class='label label-info'>
             Info
-          </div>
+          </div> -->
         </div>
       </section>
       <!-- Content -->
