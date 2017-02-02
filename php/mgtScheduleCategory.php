@@ -81,10 +81,10 @@
             <a href='#'>Management</a>
             <ul class='dropdown-menu'>
               <li class='dropdown-header'>Management Table</li>
-              <li>
+			   <li>
                 <a href='mgtUser.php'>จัดการข้อมูลผู้ใช้ </a>
               </li>
-			  <li>
+              <li>
                 <a href='mgtArtificialGrassCatagory.php'>ตารางประเภทหญ้าเทียม </a>
               </li>
               <li>
@@ -176,43 +176,206 @@
       </section>
       <!-- Content -->
       <div id='content'>
-        <div class='panel panel-default'>
-          <div class='panel panel-default'>
+        <div class='panel panel-default grid'>
           <div class='panel-heading'>
-            <i class='icon-edit icon-large'></i>
-                        ข้อมูลการใช้หญ้าเทียมกับวัสดุ
-          </div>
-          <div class='panel-body'>
-            <form class='form-horizontal'>
-              <fieldset>
-                <legend>กรุณากรอกข้อมูล</legend>
-                 <div class='form-group'>
-                       <label class='col-lg-2 control-label'>ชื่อรุ่นหญ้าเทียม</label>
-                  <div class='col-lg-10'>
-                    <input class='form-control' disabled placeholder='ชื่อรุ่นหญ้าเทียม' type='text'>
-					 </div>
-                      <label class='col-lg-2 control-label'>ชื่อวัสดุ</label>
-					
-                  <div class='col-lg-10'>
-                    <input class='form-control' disabled placeholder='ชื่อวัสดุ' type='text'>
-                  </div>
-					<label class='col-lg-2 control-label'>อัตราส่วน</label>
-                  <div class='col-lg-10'>
-                    <input class='form-control' disabled placeholder='อัตราส่วน' type='text'>
-                  </div>
-				               
-				  			 
-                </div>
-				
-              </fieldset>
-              <div class='form-actions'>
-                <button class='btn btn-default' type='submit'>Delete</button>
-                <a class='btn' href='#'>Cancel</a>
+            <i class='icon-table icon-large'></i>
+          ตารางประเภทนัดหมาย 
+            <div class='panel-tools'>
+              <div class='btn-group'>
+                <a class='btn' href='#'>
+                  <i class='icon-wrench'></i>
+                  Settings
+                </a>
+                <a class='btn' href='#'>
+                  <i class='icon-filter'></i>
+                  Filters
+                </a>
+                <a class='btn' data-toggle='toolbar-tooltip' href='#' title='Reload'>
+                  <i class='icon-refresh'></i>
+                </a>
               </div>
-            </form>
+              <div class='badge'>3 record</div>
+            </div>
+          </div>
+          <div class='panel-body filters'>
+            <div class='row'>
+              <div class='col-md-9'>
+                            เพิ่มข้อมูล <a href="addScheduleCategory.php"><img src="assets/images/add.png" align="middle" height="42" width="42" > </a>
+              </div>
+              <div class='col-md-3'>
+                <div class='input-group'>
+                  <input class='form-control' placeholder='Quick search...' type='text'>
+                  <span class='input-group-btn'>
+                    <button class='btn' type='button'>
+                      <i class='icon-search'></i>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <table class='table'>
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>ประเภทนัดหมาย </th>
+				
+                            
+                <th class='actions'>
+                  Actions
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class='success'>
+                <td>1</td>
+                <td>นัดประเมิน</td>
+             
+              
+                <td class='action'>
+                 <!-- <a class='btn btn-success' data-toggle='tooltip' href='#' title='Zoom'>
+                    <i class='icon-zoom-in'></i>
+					
+                  </a>-->
+                  <a class='btn btn-info' href='editScheduleCategory.php'>
+                    <i class='icon-edit'></i>
+                  </a>
+                  <a class='btn btn-danger' href='removeScheduleCategory.php'>
+                    <i class='icon-trash'></i>
+                  </a>
+                </td>
+              </tr>
+              <tr class='danger'>
+                <td>2</td>
+                 <td>นัดติดตั้ง</td>
+               
+               
+                
+               
+                <!--<td>Thornton</td>
+                <td>@fat</td>-->
+                <td class='action'>
+               
+                  <a class='btn btn-info' href='#'>
+                    <i class='icon-edit'></i>
+                  </a>
+                  <a class='btn btn-danger' href='#'>
+                    <i class='icon-trash'></i>
+                  </a>
+                </td>
+              </tr>
+             <!-- <tr class='warning'>
+                <td>3</td>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+                <td class='action'>
+                  <a class='btn btn-success' data-toggle='tooltip' href='#' title='Zoom'>
+                    <i class='icon-zoom-in'></i>
+                  </a>
+                  <a class='btn btn-info' href='#'>
+                    <i class='icon-edit'></i>
+                  </a>
+                  <a class='btn btn-danger' href='#'>
+                    <i class='icon-trash'></i>
+                  </a>
+                </td>
+              </tr>
+              <tr class='active'>
+                <td>4</td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+                <td class='action'>
+                  <a class='btn btn-success' data-toggle='tooltip' href='#' title='Zoom'>
+                    <i class='icon-zoom-in'></i>
+                  </a>
+                  <a class='btn btn-info' href='#'>
+                    <i class='icon-edit'></i>
+                  </a>
+                  <a class='btn btn-danger' href='#'>
+                    <i class='icon-trash'></i>
+                  </a>
+                </td>
+              </tr>
+              <tr class='disabled'>
+                <td>5</td>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+                <td class='action'>
+                  <a class='btn btn-success' data-toggle='tooltip' href='#' title='Zoom'>
+                    <i class='icon-zoom-in'></i>
+                  </a>
+                  <a class='btn btn-info' href='#'>
+                    <i class='icon-edit'></i>
+                  </a>
+                  <a class='btn btn-danger' href='#'>
+                    <i class='icon-trash'></i>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+                <td class='action'>
+                  <a class='btn btn-success' data-toggle='tooltip' href='#' title='Zoom'>
+                    <i class='icon-zoom-in'></i>
+                  </a>
+                  <a class='btn btn-info' href='#'>
+                    <i class='icon-edit'></i>
+                  </a>
+                  <a class='btn btn-danger' href='#'>
+                    <i class='icon-trash'></i>
+                  </a>
+                </td>
+              </tr>-->
+             
+            </tbody>
+          </table>
+          <div class='panel-footer'>
+            <ul class='pagination pagination-sm'>
+              <li>
+                <a href='#'>«</a>
+              </li>
+              <li class='active'>
+                <a href='#'>1</a>
+              </li>
+              <li>
+                <a href='#'>2</a>
+              </li>
+              <li>
+                <a href='#'>3</a>
+              </li>
+              <li>
+                <a href='#'>4</a>
+              </li>
+              <li>
+                <a href='#'>5</a>
+              </li>
+              <li>
+                <a href='#'>6</a>
+              </li>
+              <li>
+                <a href='#'>7</a>
+              </li>
+              <li>
+                <a href='#'>8</a>
+              </li>
+              <li>
+                <a href='#'>»</a>
+              </li>
+            </ul>
+            <div class='pull-right'>
+              Showing 1 to 10 of 32 entries
+            </div>
           </div>
         </div>
-      
+       
+        
+        </div>
       </div>
     </div>
     <!-- Footer -->

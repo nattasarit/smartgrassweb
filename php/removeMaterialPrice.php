@@ -180,30 +180,28 @@
           <div class='panel panel-default'>
           <div class='panel-heading'>
             <i class='icon-edit icon-large'></i>
-                        ข้อมูลการใช้หญ้าเทียมกับวัสดุ
+                        ข้อมูลราคาวัสดุ
           </div>
           <div class='panel-body'>
             <form class='form-horizontal'>
               <fieldset>
                 <legend>กรุณากรอกข้อมูล</legend>
                  <div class='form-group'>
-                       <label class='col-lg-2 control-label'>ชื่อรุ่นหญ้าเทียม</label>
+                     <label class='col-lg-2 control-label'>ชื่อวัสดุ</label>
                   <div class='col-lg-10'>
-                    <input class='form-control' disabled placeholder='ชื่อรุ่นหญ้าเทียม' type='text'>
-					 </div>
-                      <label class='col-lg-2 control-label'>ชื่อวัสดุ</label>
-					
+                  <input class='form-control' disabled placeholder='ชื่อวัสดุ' type='text'>
+					</div><label class='col-lg-2 control-label'>ราคา</label>
                   <div class='col-lg-10'>
-                    <input class='form-control' disabled placeholder='ชื่อวัสดุ' type='text'>
-                  </div>
-					<label class='col-lg-2 control-label'>อัตราส่วน</label>
+                   <input class='form-control'  disabled  placeholder='ราคา' type='text'>
+					</div>
+					<label class='col-lg-2 control-label'>หน่วย</label>
                   <div class='col-lg-10'>
-                    <input class='form-control' disabled placeholder='อัตราส่วน' type='text'>
+                    <input class='form-control' disabled placeholder='หน่วย' type='text'>
                   </div>
 				               
 				  			 
                 </div>
-				
+				</div>
               </fieldset>
               <div class='form-actions'>
                 <button class='btn btn-default' type='submit'>Delete</button>

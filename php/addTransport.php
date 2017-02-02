@@ -180,33 +180,38 @@
           <div class='panel panel-default'>
           <div class='panel-heading'>
             <i class='icon-edit icon-large'></i>
-                        ข้อมูลการใช้หญ้าเทียมกับวัสดุ
+                        ข้อมูลอัตราค่าขนส่ง
           </div>
           <div class='panel-body'>
             <form class='form-horizontal'>
               <fieldset>
                 <legend>กรุณากรอกข้อมูล</legend>
-                 <div class='form-group'>
-                       <label class='col-lg-2 control-label'>ชื่อรุ่นหญ้าเทียม</label>
+                              
+                <div class='form-group has-warning'>
+                  <label class='col-lg-2 control-label'>ประเภทพาหนะ</label>
                   <div class='col-lg-10'>
-                    <input class='form-control' disabled placeholder='ชื่อรุ่นหญ้าเทียม' type='text'>
-					 </div>
-                      <label class='col-lg-2 control-label'>ชื่อวัสดุ</label>
-					
+                  <input class='form-control' placeholder='ประเภทพาหนะ' type='text'>
+					</div>
+					<label class='col-lg-2 control-label'>ความจุ (เมตร)</label>
                   <div class='col-lg-10'>
-                    <input class='form-control' disabled placeholder='ชื่อวัสดุ' type='text'>
+                    <input class='form-control' placeholder='ความจุ (เมตร)' type='text'>
                   </div>
-					<label class='col-lg-2 control-label'>อัตราส่วน</label>
+				  <label class='col-lg-2 control-label'>ความจุ (ม้วน)</label>
                   <div class='col-lg-10'>
-                    <input class='form-control' disabled placeholder='อัตราส่วน' type='text'>
+                    <input class='form-control' placeholder='ความจุ (ม้วน)' type='text'>
                   </div>
-				               
-				  			 
+				<label class='col-lg-2 control-label'>อัตราค่าขนส่ง</label>
+                  <div class='col-lg-10'>
+                    <input class='form-control' placeholder='อัตราค่าขนส่ง' type='text'>
+                  </div>
+						 
+						  
+				  
                 </div>
-				
+                
               </fieldset>
               <div class='form-actions'>
-                <button class='btn btn-default' type='submit'>Delete</button>
+                <button class='btn btn-default' type='submit'>Save</button>
                 <a class='btn' href='#'>Cancel</a>
               </div>
             </form>
