@@ -183,61 +183,61 @@
                         ข้อมูลหญ้าเทียม
           </div>
           <div class='panel-body'>
-            <form class='form-horizontal'>
+            <form class='form-horizontal'  name="add_Artificial_form" action="addArtificialGrass_todb.php" method="post">
               <fieldset>
                 <legend>กรุณากรอกข้อมูล</legend>
                               
                 <div class='form-group has-warning'>
                   <label class='col-lg-2 control-label'>รหัสรุ่นหญ้าเทียม</label>
                   <div class='col-lg-10'>
-                    <input class='form-control' placeholder='รหัสรุ่นหญ้าเทียม' type='text'>
+                    <input name="GRASS_ID" class='form-control' placeholder='รหัสรุ่นหญ้าเทียม' type='text'>
                   </div>
 				  <label class='col-lg-2 control-label'>ประเภทรุ่นหญ้าเทียม</label>
                   <div class='col-lg-10'>
-                  <select class='form-control'  >
-                    <option>จัดสวน</option>
-                    <option>สนามกีฬา</option>
+                  <select class='form-control' name="GRASS_TYPE"  >
+                    <option value="garder">จัดสวน</option>
+                    <option value="stadium">สนามกีฬา</option>
                     </select>
 					</div>
 				  <label class='col-lg-2 control-label'>ชื่อรุ่นหญ้าเทียม</label>
                   <div class='col-lg-10'>
-                    <input class='form-control' placeholder='ชื่อรุ่นหญ้าเทียม' type='text'>
+                    <input name="GRASS_NAME" class='form-control' placeholder='ชื่อรุ่นหญ้าเทียม' type='text'>
                   </div>
 				  <label class='col-lg-2 control-label'>หน้าหว้างของรุ่นหญ้า</label>
                   <div class='col-lg-10'>
-                    <input class='form-control' placeholder='หน้าหว้างของรุ่นหญ้า' type='text'>
+                    <input name="GRASS_WIDTH_SIZE" class='form-control' placeholder='หน้าหว้างของรุ่นหญ้า' type='text'>
                   </div>
 				  <label class='col-lg-2 control-label'>ความยาวของม้วนหญ้า</label>
                   <div class='col-lg-10'>
-                    <input class='form-control' placeholder='ความยาวของม้วนหญ้า' type='text'>
+                    <input name="GRASS_ROLL_LENGHT" class='form-control' placeholder='ความยาวของม้วนหญ้า' type='text'>
                   </div>
 				  <label class='col-lg-2 control-label'>PileHeight</label>
                   <div class='col-lg-10'>
-                    <input class='form-control' placeholder='PileHeight' type='text'>
+                    <input name="PILE_HEIGHT" class='form-control' placeholder='PileHeight' type='text'>
                   </div>
 				  <label class='col-lg-2 control-label'>SitchRate</label>
                   <div class='col-lg-10'>
-                    <input class='form-control' placeholder='SitchRate' type='text'>
+                    <input name="STICH_RATE" class='form-control' placeholder='SitchRate' type='text'>
                   </div>
 				   <label class='col-lg-2 control-label'>Gauge</label>
                   <div class='col-lg-10'>
-                    <input class='form-control' placeholder='Gauge' type='text'>
+                    <input name="GAUGE" class='form-control' placeholder='Gauge' type='text'>
                   </div>
 				  <label class='col-lg-2 control-label'>Color</label>
                   <div class='col-lg-10'>
-                    <input class='form-control' placeholder='Color' type='text'>
+                    <input name="COLOR" class='form-control' placeholder='Color' type='text'>
                   </div>
 				  <label class='col-lg-2 control-label'>PileDenie</label>
                   <div class='col-lg-10'>
-                    <input class='form-control' placeholder='PileDenie' type='text'>
+                    <input name="PILE_DENIE" class='form-control' placeholder='PileDenie' type='text'>
                   </div>
 				  <label class='col-lg-2 control-label'>Backing</label>
                   <div class='col-lg-10'>
-                    <input class='form-control' placeholder='Backing' type='text'>
+                    <input name="BACKING" class='form-control' placeholder='Backing' type='text'>
                   </div>
 				  <label class='col-lg-2 control-label'>Path</label>
                   <div class='col-lg-10'>
-                    <input type='file'>
+                    <input type='file' name="IMAGE_NAME">
                   </div>
 				 
                 </div>
